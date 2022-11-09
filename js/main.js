@@ -30,7 +30,7 @@ const deletePost = (id) => {
     }
     fetch(endpoint, options)
     .then((response) => response.json())
-    .then((json) => alert("Publicación eliminado correctamente"));
+    .then((json) => alert("Publicación eliminado"));
 }
 
 consultarBtn = document.getElementById("consultarBtn")
